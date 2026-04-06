@@ -1,0 +1,59 @@
+<!DOCTYPE html> <!-- Declaração do tipo de documento HTML5 -->
+<html lang="pt-br"> <!-- Tag raiz com idioma português brasileiro -->
+
+<head> <!-- Seção de metadados -->
+    <meta charset="UTF-8"> <!-- Codificação de caracteres UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configuração para dispositivos móveis -->
+    <title>Netflix</title> <!-- Título da página -->
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS -->
+</head>
+
+<body> <!-- Corpo visível da página -->
+    <main> <!-- Seção principal do conteúdo -->
+        <h1>Quem está assistindo ?</h1> <!-- Título principal da página -->
+        <div class="theme-switcher">
+            <button id="theme-toggle" type="button" aria-label="Alternar tema">🌙</button>
+        </div>
+        <section> <!-- Seção para agrupar os perfis -->
+            <ul> <!-- Lista não ordenada de agrupamentos -->
+                <li>
+                    <ol class="container"> <!-- Lista ordenada de perfis -->
+                        <li class="profile"> <!-- Perfil 1 -->
+                            <a href="catalogo/catalogo.html">
+                                <img src="/assets/perfil_1.jpg" alt="Foto de perfil">
+                                <!-- Imagem do perfil com descrição -->
+                                <p>Perfil 1</p> <!-- Nome do perfil -->
+                            </a>
+                        </li>
+                        <li class="profile"> <!-- Perfil 2 -->
+                            <a href="catalogo/catalogo.html">
+                                <img src="/assets/perfil_2.jpg" alt="Perfil Kids">
+                                <!-- Imagem do perfil com descrição -->
+                                <p>Kids</p> <!-- Nome do perfil -->
+                            </a>
+                        </li>
+                        <li class="profile"> <!-- Perfil 3 -->
+                            <a href="catalogo/catalogo.html">
+                                <img src="/assets/perfil_3.jpg" alt="Foto de perfil">
+                                <!-- Imagem do perfil com descrição -->
+                                <p>Perfil 3</p> <!-- Nome do perfil -->
+                            </a>
+                        </li>
+                        <li class="profile"> <!-- Perfil 4 -->
+                            <a href="catalogo/catalogo.html">
+                                <img src="/assets/perfil_4.jpg" alt="Foto de perfil">
+                                <!-- Imagem do perfil com descrição -->
+                                <p>Perfil 4</p> <!-- Nome do perfil -->
+                            </a>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
